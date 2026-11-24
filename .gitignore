@@ -195,8 +195,10 @@ env/
 
 # 临时/测试目录
 backups/
-bench/
 transcripts/
+
+# bench：脚本进 git（评测工具），只忽略运行产生的数据
+bench/baseline/
 
 # macOS 系统文件
 .DS_Store
