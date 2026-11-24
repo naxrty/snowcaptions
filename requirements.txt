@@ -1,0 +1,10 @@
+# 核心识别
+sherpa-onnx==1.13.8
+numpy
+
+# 麦克风采集
+sounddevice
+
+# 英文→中文翻译兜底（Argos 语言包底层依赖，直接调 CTranslate2）
+ctranslate2
+sentencepiece

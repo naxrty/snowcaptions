@@ -179,3 +179,27 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# ===== 项目专用：忽略大模型与临时文件（不进入 git）=====
+# 模型文件（大文件，用 download_models.sh 下载）
+models/
+models_mt/
+models_refine/
+models_speaker/
+*.onnx
+*.gguf
+*.bin
+
+# 虚拟环境
+venv/
+env/
+
+# 临时/测试目录
+backups/
+bench/
+transcripts/
+
+# macOS 系统文件
+.DS_Store
+
+# 本地设置（含个人信息/本机路径）
+settings.json
