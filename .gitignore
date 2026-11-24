@@ -205,3 +205,6 @@ bench/baseline/
 
 # 本地设置（含个人信息/本机路径）
 settings.json
+
+# release 打包产物（放 GitHub Release，不进代码仓库）
+release/
