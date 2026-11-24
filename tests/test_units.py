@@ -15,7 +15,7 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
-SAVE = tempfile.mkdtemp(prefix="sherpa-asr-test-")
+SAVE = tempfile.mkdtemp(prefix="snowcaptions-test-")
 
 import audio as A          # noqa: E402
 import config as C         # noqa: E402

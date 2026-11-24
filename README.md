@@ -1,4 +1,4 @@
-# sherpa-asr · 本地实时字幕
+# snowcaptions · 本地实时字幕
 
 完全**离线**的实时语音转写与中文字幕工具。基于 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)，
 两遍架构：流式模型负责「快」，离线大模型负责「准」。可选英文→中文翻译与说话人区分。
@@ -60,8 +60,9 @@ open build/SubtitleMenuBar.app                # 或双开「菜单栏字幕.comm
 点菜单栏雪花图标 → 弹窗里点「开始」即可。设置面板可调：语种（中文转写 / 英文转写 /
 英文转译成中文）、第二遍精修、热词表、说话人识别。点「停止」自动保存到 `transcripts/`。
 
-> App 需要找到 Python 引擎目录。默认会探测 `~/Desktop/sherpa-asr`、`~/sherpa-asr`、
-> `~/Downloads/sherpa-asr`；放在别处时，写一行路径到 `~/.subtitle-menubar-engine` 即可。
+> App 需要找到 Python 引擎目录。默认会探测 `~/Desktop/GitHub库/snowcaptions`、
+> `~/Desktop/snowcaptions`、`~/snowcaptions`、`~/Downloads/snowcaptions`；放在别处时，
+> 写一行路径到 `~/.subtitle-menubar-engine` 即可。
 
 ### 常用命令行参数
 

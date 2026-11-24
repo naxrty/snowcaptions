@@ -37,9 +37,10 @@ func enginePath() -> String {
     // 2) 常见候选路径
     let home = NSHomeDirectory()
     let candidates = [
-        home + "/Desktop/sherpa-asr",
-        home + "/sherpa-asr",
-        home + "/Downloads/sherpa-asr",
+        home + "/Desktop/GitHub库/snowcaptions",
+        home + "/Desktop/snowcaptions",
+        home + "/snowcaptions",
+        home + "/Downloads/snowcaptions",
     ]
     for c in candidates where FileManager.default.fileExists(atPath: c + "/live_zh.py") {
         return c
